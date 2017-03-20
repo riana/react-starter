@@ -1,0 +1,35 @@
+{
+  "name": "react-proto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.0.16",
+    "@types/react-dom": "^0.14.23",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.1.2",
+    "css-loader": "^0.27.3",
+    "del": "^2.2.2",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "node-sass": "^4.5.0",
+    "run-sequence": "^1.2.2",
+    "sass-loader": "^6.0.3",
+    "source-map-loader": "^0.2.0",
+    "style-loader": "^0.14.1",
+    "typescript": "^2.2.1",
+    "webpack": "^2.2.1",
+    "webpack-stream": "^3.2.0"
+  }
+}
